@@ -1,0 +1,16 @@
+<h1 class="text-3xl text-bold mt-8">Exercice 3</h1>
+<h3 class="text-xl text-bold mt-4">Input</h3>
+<p>{{this.parfumImported.quantity}}  flacons de parfum importé à {{this.parfumImported.priceHT}}</p>
+<p>{{this.parfum.quantity}}  flacons de parfum à   {{this.parfum.priceHT}}</p>
+<p>{{this.pills.quantity }}   boites de pilules à  {{this.pills.priceHT}}</p>
+<p>{{this.chocolat.quantity}} barres de chocolat à  {{this.chocolat.priceHT}}</p>
+
+<h3 class="text-xl text-bold mt-4">Output 3</h3>
+
+<p>{{this.parfumImported.quantity}} boites de chocolats importée à  {{ this.parfumImported.priceHT}} : {{ this.parfumImportedTotal}}</p>
+<p>{{this.parfum.quantity}} flacons de parfums  à  {{ this.parfum.priceHT }} : {{ this.parfumTotal}}</p>
+<p>{{this.pills.quantity}} flacons de parfums  à  {{ this.pills.priceHT }} : {{ this.pillsTotal}}</p>
+<p>{{this.chocolat.quantity}} flacons de parfums  à  {{ this.chocolat.priceHT }} : {{ this.chocolateTotal}}</p>
+
+<p class="mt-2">Montant des taxes :  {{taxeTotal}}</p>
+<p>Total :  {{total}}</p>
